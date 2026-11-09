@@ -1,0 +1,13 @@
+# 纯文本格式示例：一行一条，# 开头是注释
+# 这一段默认进白名单（走 WebVPN）
+
+sdust.edu.cn
+cnki.net
+sslibrary.com
+10.0.0.0/8
+192.168.0.0/16
+
+# 这一段默认进黑名单（强制直连，优先级高于白名单）
+[direct]
+localhost
+example.com
